@@ -39,12 +39,12 @@ int max_num(int arr[])
     int max = arr[5];
     int i;
     for (i = 0; i < 10; i++)
-    {
-        if (arr[i] > max) 
+    {  
+        if (arr[i] > max)
         {
             max = arr[i];
         }
-    }
+    } 
 
     return max;
 }
